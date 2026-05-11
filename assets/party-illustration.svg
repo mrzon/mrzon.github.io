@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 620" role="img" aria-labelledby="title desc">
+  <title id="title">Birthday party illustration</title>
+  <desc id="desc">A colorful birthday cake with balloons, gifts, music notes, and confetti.</desc>
+  <defs>
+    <linearGradient id="cakeTop" x1="252" x2="528" y1="310" y2="310" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF7B6E"/>
+      <stop offset=".55" stop-color="#FFCE5A"/>
+      <stop offset="1" stop-color="#17A899"/>
+    </linearGradient>
+    <linearGradient id="shadow" x1="126" x2="635" y1="553" y2="553" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9D3F73" stop-opacity=".1"/>
+      <stop offset=".5" stop-color="#0E9384" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#FF675D" stop-opacity=".1"/>
+    </linearGradient>
+    <filter id="softShadow" width="140%" height="140%" x="-20%" y="-20%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#53301F" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <rect width="760" height="620" fill="none"/>
+  <ellipse cx="380" cy="552" rx="258" ry="38" fill="url(#shadow)"/>
+
+  <g opacity=".95">
+    <path fill="#FF675D" d="M151 104c27-31 73-20 83 18 10 40-25 72-61 58-34-13-47-46-22-76Z"/>
+    <path fill="#0E9384" d="M570 90c35-22 76 3 73 44-3 38-42 58-73 36-29-20-32-61 0-80Z"/>
+    <path fill="#F8B73F" d="M411 64c34-16 69 11 62 48-8 39-53 51-79 25-24-24-16-59 17-73Z"/>
+    <path fill="none" stroke="#665D73" stroke-linecap="round" stroke-width="4" d="M183 181c-25 64-13 119 32 165M601 172c-51 48-69 107-54 177M431 136c-26 55-27 112-2 171"/>
+  </g>
+
+  <g fill="none" stroke-linecap="round" stroke-width="8">
+    <path stroke="#9D3F73" d="M94 255c34-22 61-22 80 0s45 22 79 0"/>
+    <path stroke="#0E9384" d="M514 247c27-18 49-18 65 0s37 18 64 0"/>
+    <path stroke="#FF675D" d="M100 380c28-17 51-17 68 0s39 17 67 0"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <path fill="#FFFFFF" d="M207 362c0-43 35-78 78-78h190c43 0 78 35 78 78v126H207V362Z"/>
+    <path fill="url(#cakeTop)" d="M252 286h256c25 0 45 20 45 45v32H207v-32c0-25 20-45 45-45Z"/>
+    <path fill="#9D3F73" d="M207 433h346v62c0 25-20 45-45 45H252c-25 0-45-20-45-45v-62Z"/>
+    <path fill="#FFE7F3" d="M255 433h35v107h-35zM336 433h35v107h-35zM417 433h35v107h-35zM498 433h10c25 0 45 20 45 45v17c0 25-20 45-45 45h-10V433Z" opacity=".84"/>
+    <path fill="#FFF7C8" d="M245 363c0 20 31 20 31 0 0 20 31 20 31 0 0 20 31 20 31 0 0 20 31 20 31 0 0 20 31 20 31 0 0 20 31 20 31 0 0 20 31 20 31 0 0 20 31 20 31 0h60v50H207v-50h38Z"/>
+    <rect width="20" height="70" x="371" y="211" fill="#17A899" rx="10"/>
+    <path fill="#FFCE5A" d="M381 180c18 23 19 40 0 51-19-11-18-28 0-51Z"/>
+    <rect width="20" height="54" x="301" y="231" fill="#FF675D" rx="10"/>
+    <path fill="#FFCE5A" d="M311 205c16 20 17 34 0 44-17-10-16-24 0-44Z"/>
+    <rect width="20" height="54" x="441" y="231" fill="#F8B73F" rx="10"/>
+    <path fill="#FF675D" d="M451 205c16 20 17 34 0 44-17-10-16-24 0-44Z"/>
+  </g>
+
+  <g>
+    <rect width="106" height="78" x="95" y="440" fill="#17A899" rx="8" transform="rotate(-7 148 479)"/>
+    <path fill="#FFE7F3" d="m88 467 106-13 5 39-106 13z"/>
+    <path fill="#FFCE5A" d="m138 433 25-3 9 77-25 3z"/>
+    <rect width="102" height="74" x="574" y="424" fill="#FF675D" rx="8" transform="rotate(8 625 461)"/>
+    <path fill="#FFF7C8" d="m579 444 101 14-5 37-101-14z"/>
+    <path fill="#0E9384" d="m617 420 24 3-10 74-24-3z"/>
+  </g>
+
+  <g fill="#241F2F">
+    <circle cx="303" cy="392" r="9"/>
+    <circle cx="457" cy="392" r="9"/>
+    <path d="M348 401c10 16 54 16 64 0 3-5 10-2 8 4-8 29-72 29-80 0-2-6 5-9 8-4Z"/>
+  </g>
+
+  <g>
+    <circle cx="86" cy="176" r="9" fill="#F8B73F"/>
+    <circle cx="681" cy="205" r="8" fill="#9D3F73"/>
+    <circle cx="637" cy="346" r="7" fill="#0E9384"/>
+    <circle cx="119" cy="320" r="7" fill="#FF675D"/>
+    <path fill="#0E9384" d="m284 82 20 12-15 19-20-12z"/>
+    <path fill="#FF675D" d="m639 294 21 8-9 21-21-8z"/>
+    <path fill="#F8B73F" d="m171 242 18 8-7 18-18-8z"/>
+    <path fill="#9D3F73" d="m520 141 16 16-17 15-16-16z"/>
+    <path fill="#FF675D" d="M258 173h22v22h-22z" transform="rotate(19 269 184)"/>
+    <path fill="#17A899" d="M489 199h18v18h-18z" transform="rotate(-22 498 208)"/>
+  </g>
+</svg>
